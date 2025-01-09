@@ -150,8 +150,8 @@ erDiagram
     USERS ||--o{ LOGS: records
     USERS ||--o{ ROUTINES: creates
     USERS }o--o{ LOGS: likes
-    ROUTINES }o--o{ SETS: has
-    LOGS }o--o{ SETS: has
+    ROUTINES ||--|{ SETS: has
+    LOGS ||--|{ SETS: has
     EXERCISES ||--o{ SETS: in
 
 
