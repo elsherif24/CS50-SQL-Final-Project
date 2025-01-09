@@ -28,12 +28,8 @@ workout routines, records logs, track weights and share these logs.
 * User can do all CRUD operations on *his* Logs.
 * User can follow other users.
 * User can like other user's logs.
-* User can view all his past sets for a specific exercise.
 * User can put access to log.
 * User can view other users logs as long as it's accessible.
-
-* User can't keep track of muscles metrics or his physical progress.
-
 ## Representation
 
 ### Entities
