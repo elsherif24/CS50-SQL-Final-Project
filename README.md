@@ -2,7 +2,7 @@
 
 By Mohamed Elsherif
 
-Video overview: <URL HERE>
+Video overview: <https://www.youtube.com/watch?v=QT8EyhUhlRs>
 
 ## Scope
 
