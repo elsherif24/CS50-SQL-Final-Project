@@ -30,6 +30,7 @@ workout routines, records logs, track weights and share these logs.
 * User can like other user's logs.
 * User can put access to log.
 * User can view other users logs as long as it's accessible.
+
 ## Representation
 
 ### Entities
@@ -96,18 +97,17 @@ Since sqlite doesn't support enums separate tables for enums were used.
 
 * `type`  which is `TEXT` and `UNIQUE` in the set of ('regular', 'failure', 'drop_set', 'warm_up').
 
-#### MUSCLES
+#### EQUIPMENTS
 
-* muscles can be treated also as an enum but because the set of values are large set check was omitted only
-  ensured `name` is `UNIQUE`.
+* `name` of the equipment which is `TEXT` and `UNIQUE` No check on a specific set like ('barbell', 'dumbbell', etc);
 
 ### Sqlite Sets
 
 Since sqlite doesn't support by default a set type separate tables for set were used.
 
-#### EQUIPMENTS
+#### MUSCLES
 
-* `name` of the equipment which is `TEXT` and `UNIQUE`;
+* muscles can be treated also as a set but because the set of values are large set check was omitted only ensured `name` is `UNIQUE`.
 
 ### JOIN Tables
 
